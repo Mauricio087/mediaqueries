@@ -19,7 +19,7 @@ nav {
 }
 
 .itemsdesktop {
-    display: none;
+    display:none;
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -106,7 +106,7 @@ footer {
 
 
 .containerdesktop {
-    display: none;
+    display:flex;
 }
 
 @media (min-width: 576px){
@@ -140,9 +140,7 @@ footer {
       gap: 10px;
       cursor: pointer;
     }
-    .containermobile {
-      display: none;
-    }
+
     .containerdesktop {
       grid-area: products;
       display: flex;
@@ -150,7 +148,7 @@ footer {
       align-items: center;
       background-color:rgba(202, 247, 250, 0.973);
     }
-    .boxproduct2 {
+    .boxproduct {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       margin-bottom: auto;
